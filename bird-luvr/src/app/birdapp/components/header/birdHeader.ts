@@ -3,10 +3,10 @@ import { Input } from '@angular/core';
 
 @Component({
   imports: [],
-  selector: 'app-header',
-  styleUrl: './header.scss',
-  templateUrl: './header.html',
+  selector: 'app-birdHeader',
+  styleUrl: './birdHeader.scss',
+  templateUrl: './birdHeader.html',
 })
-export class Header {
+export class BirdHeader {
   @Input() title:string = "Title";
 }

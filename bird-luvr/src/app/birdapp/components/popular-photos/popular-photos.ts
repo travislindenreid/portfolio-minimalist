@@ -1,12 +1,12 @@
 import { Component, OnInit, signal } from '@angular/core';
-import { Header } from '../header/header';
+import { BirdHeader } from '../header/birdHeader';
 import { SkimmerSearch } from '../../services/skimmer-search';
 import { ObservationData } from '../../classes/observation-data';
 import { BirdPhoto } from '../bird-photo/bird-photo';
 import { ObservationSearchResults } from '../../classes/observation-search-results';
 
 @Component({
-  imports: [Header, BirdPhoto],
+  imports: [BirdHeader, BirdPhoto],
   selector: 'app-popular-photos',
   styleUrl: './popular-photos.scss',
   templateUrl: './popular-photos.html',

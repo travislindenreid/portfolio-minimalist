@@ -2,12 +2,12 @@ import { Component, OnInit, signal } from '@angular/core';
 import { Observation } from '../observation/observation';
 import { ObservationData } from '../../classes/observation-data';
 import { SkimmerSearch } from '../../services/skimmer-search';
-import { Header } from '../header/header';
+import { BirdHeader } from '../header/birdHeader';
 import { Map } from '../map/map';
 import { ObservationSearchResults } from '../../classes/observation-search-results';
 
 @Component({
-  imports: [Observation, Header, Map],
+  imports: [Observation, BirdHeader, Map],
   selector: 'app-recent-skimmers',
   styleUrl: './recent-skimmers.scss',
   templateUrl: './recent-skimmers.html',
