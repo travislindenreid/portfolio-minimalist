@@ -1,9 +1,9 @@
 import { Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Footer } from './birdapp/components/footer/footer';
+import { BirdFooter } from './birdapp/components/footer/birdFooter';
 
 @Component({
-  imports: [RouterOutlet, Footer],
+  imports: [RouterOutlet, BirdFooter],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
