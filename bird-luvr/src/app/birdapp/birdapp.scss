@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'FriggCafe';
+    src: url('/fonts/frigg_cafe/FriggCafe-Regular.otf');
+    src: url('/fonts/frigg_cafe/FriggCafe-Regular.otf') format('opentype'),
+        url('/fonts/frigg_cafe/FriggCafe-Regular.woff2') format('woff2'),
+        url('/fonts/frigg_cafe/FriggCafe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: "FriggCafe", sans-serif;
+    font-size: 2em;
+}
+
+body {
+    font-family: serif;
+    font-size: 1em;
+}
+
+.container {
+    // top, right, bottom, left
+    margin-top: 5%;
+}
+
+hr.dotted {
+  border-top: 3px dotted #8c8c8c;
+}
+
+a {
+    color: #e68a00;
+}
+
+a:hover {
+    color: #804d00;
+    background-color: #faead1;
+}
+
+em {
+    color: #0099AD;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.external::after {
+    content: " ⇢";   
+}
+
+a.visited {
+    color: #995c00;
+}
+
+.obslink {
+    text-decoration: none;
+    color: inherit;
+}

@@ -3,13 +3,14 @@ import { Observation } from '../observation/observation';
 import { ObservationData } from '../../classes/observation-data';
 import { SkimmerSearch } from '../../services/skimmer-search';
 import { BirdHeader } from '../header/birdHeader';
+import { BirdFooter } from '../footer/birdFooter';
 import { Map } from '../map/map';
 import { ObservationSearchResults } from '../../classes/observation-search-results';
 
 @Component({
-  imports: [Observation, BirdHeader, Map],
+  imports: [Observation, BirdHeader, Map, BirdFooter],
   selector: 'app-recent-skimmers',
-  styleUrl: './recent-skimmers.scss',
+  styleUrls: ['../../birdApp.scss', './recent-skimmers.scss'],
   templateUrl: './recent-skimmers.html',
 })
 export class RecentSkimmers implements OnInit {

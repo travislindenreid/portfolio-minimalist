@@ -4,7 +4,7 @@ import { ObservationData } from '../../classes/observation-data';
 @Component({
   imports: [],
   selector: 'app-bird-photo',
-  styleUrl: './bird-photo.scss',
+  styleUrls: ['../../birdApp.scss', './bird-photo.scss'],
   templateUrl: './bird-photo.html',
 })
 export class BirdPhoto {

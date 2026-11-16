@@ -1,17 +1,21 @@
-<app-birdHeader [title]="title"></app-birdHeader>
+<body class="container">
+  <app-birdHeader [title]="title"></app-birdHeader>
 
-<div class="row">
+  <div class="row">
 
-  <div class="col-md-3"></div>
-  <main class="col-md-6 col-sm-12">
-    <p>Here are the {{observations().length}} most popular <em>{{bird}}</em> observations in the last month from any location.</p>
-    <p>Search instead for <a class="birdSelect" (click)="loadSightings('peregrine')">peregrine falcons</a>, <a class="birdSelect" (click)="loadSightings('grebe')">Western grebes</a>, or <a class="birdSelect" (click)="loadSightings('skimmer')">black skimmers</a>.</p>
-    <p>View this search <a class="external" href="{{iNatUrl()}}" target="_blank">on iNat</a>.</p>
-    @for(ob of observations(); track ob)
-    {
-      <app-bird-photo [observation]="ob"></app-bird-photo>
-    }
-  </main>
-  <div class="col-md-3"></div>
-  
-</div>
+    <div class="col-md-3"></div>
+    <main class="col-md-6 col-sm-12">
+      <p>Here are the {{observations().length}} most popular <em>{{bird}}</em> observations in the last month from any location.</p>
+      <p>Search instead for <a class="birdSelect" (click)="loadSightings('peregrine')">peregrine falcons</a>, <a class="birdSelect" (click)="loadSightings('grebe')">Western grebes</a>, or <a class="birdSelect" (click)="loadSightings('skimmer')">black skimmers</a>.</p>
+      <p>View this search <a class="external" href="{{iNatUrl()}}" target="_blank">on iNat</a>.</p>
+      @for(ob of observations(); track ob)
+      {
+        <app-bird-photo [observation]="ob"></app-bird-photo>
+      }
+    </main>
+    <div class="col-md-3"></div>
+    
+  </div>
+
+  <app-birdfooter></app-birdfooter>
+</body>

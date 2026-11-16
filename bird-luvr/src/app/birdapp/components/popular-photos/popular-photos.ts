@@ -4,11 +4,12 @@ import { SkimmerSearch } from '../../services/skimmer-search';
 import { ObservationData } from '../../classes/observation-data';
 import { BirdPhoto } from '../bird-photo/bird-photo';
 import { ObservationSearchResults } from '../../classes/observation-search-results';
+import { BirdFooter } from '../footer/birdFooter';
 
 @Component({
-  imports: [BirdHeader, BirdPhoto],
+  imports: [BirdHeader, BirdPhoto, BirdFooter],
   selector: 'app-popular-photos',
-  styleUrl: './popular-photos.scss',
+  styleUrls: ['../../birdApp.scss', './popular-photos.scss'],
   templateUrl: './popular-photos.html',
 })
 export class PopularPhotos implements OnInit {
