@@ -1,0 +1,14 @@
+nav {
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+nav p::before {
+    content: "✧ ";
+}
+
+p {
+    margin: 0em;
+    padding: 0em;
+}

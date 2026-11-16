@@ -1,0 +1,18 @@
+<a href="{{observation.post_url}}" class="obslink" target="_blank">
+    <article class="observationCard">
+        <table>
+            <tr>
+                <td>
+                    @if(observation.image_url != "") {
+                        <img src="{{observation.image_url}}">
+                    }
+                </td>
+                <td class="observationDescription">
+                    <p>{{observation.species_guess}}</p>
+                    <p> Observed on <em>{{observation.date_formatted}}</em> {{observation.time_formatted}}</p>
+                    <p> Near <em>{{observation.location}}</em></p>
+                </td>
+            </tr>
+        </table>
+    </article>
+</a>

@@ -1,0 +1,9 @@
+<section class="map">
+    <img src="map.png">
+    @for(ob of observations; track ob)
+    {
+        <p class="pin" [style]="getStyleFromCoords(ob.long, ob.lat)">
+            𓅯 {{ob.date_formatted}}
+        </p>
+    }
+</section>

@@ -1,0 +1,22 @@
+.map {
+    margin: 1em 0em;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    display: block;
+    position: relative;
+}
+
+.pin {
+    font-size: 0.8em;
+    background-color: rgba(0, 203, 230, 0.8);
+    padding: 0.25em;
+    border-radius: 0.25em;
+    position:absolute;
+    left:0px;
+    top:0px;
+}

@@ -1,0 +1,10 @@
+<a href="{{observation.post_url}}" class="obslink" target="_blank">
+    <article>
+        @if(observation.image_url != "") {
+            <img src="{{observation.image_large}}">
+        } @else {
+            <p>Image import failed.</p>
+        }
+        <p class="external">Posted by: {{observation.user_name}}</p>
+    </article>
+</a>
