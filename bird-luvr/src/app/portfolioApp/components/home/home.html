@@ -5,8 +5,9 @@
 
     <div class="col-md-2"></div>
     <main class="col-md-8 col-sm-12">
-        <p>Hello!</p>
-        <p>View my <a href="recentBirds">Orange County Black Skimmers project</a>.</p>
+        @for(game of gameData(); track game) {
+          <app-game-link [gameData]="game"></app-game-link>
+        }
     </main>
     <div class="col-md-2"></div>
     
