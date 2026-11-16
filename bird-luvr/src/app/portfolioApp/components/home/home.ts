@@ -4,7 +4,7 @@ import { Header } from '../header/header';
 @Component({
   imports: [Header],
   selector: 'app-home',
-  styleUrls: ['../portfolio.scss', './home.scss'],
+  styleUrls: ['../../portfolio.scss', './home.scss'],
   templateUrl: './home.html',
 })
 export class Home {
