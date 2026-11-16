@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { RecentSkimmers } from './components/recent-skimmers/recent-skimmers';
-import { PopularPhotos } from './components/popular-photos/popular-photos';
+import { RecentSkimmers } from './birdapp/components/recent-skimmers/recent-skimmers';
+import { PopularPhotos } from './birdapp/components/popular-photos/popular-photos';
 
 export const routes: Routes = [
     { path: '', component: RecentSkimmers},
