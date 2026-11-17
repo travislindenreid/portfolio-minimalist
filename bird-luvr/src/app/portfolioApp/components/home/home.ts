@@ -22,9 +22,11 @@ export class Home implements OnInit {
     this.gameService.getJSON().subscribe(data => {
       this.gameData.set(data.games);
 
+      /*
       this.gameData().forEach((element:GameData) => {
         console.log(element);
       });
+      */
     });
   }
 }
