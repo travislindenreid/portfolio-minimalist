@@ -32,9 +32,7 @@
             "styles": ["src/styles.scss"],
             "polyfills": ["@angular/localize/init"],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/app/birdapp/birdapp.scss"
-              ]
+              "includePaths": ["src/app/birdapp/birdapp.scss"]
             }
           },
           "configurations": {
@@ -75,6 +73,9 @@
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
