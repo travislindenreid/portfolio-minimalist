@@ -11,6 +11,7 @@ export class SkimmerSearch {
     taxon_id_skimmer = "&taxon_id=4496";
     taxon_id_peregrine = "&taxon_id=4647";
     taxon_id_grebe = "&taxon_id=4235";
+    taxon_id_murre = "&taxon_id=4519";
     location="lat=34.14703157579675&lng=-117.3162604134375&radius=231.45630820637606";
     date_start="d1=";
     photos = "photos=true";
@@ -38,6 +39,7 @@ export class SkimmerSearch {
             case "skimmer" : name = "black skimmer"; break;
             case "peregrine" : name = "peregrine falcon"; break;
             case "grebe" : name = "western grebe"; break;
+            case "murre" : name = "common murre"; break;
         }
         return name;
     }
@@ -78,6 +80,7 @@ export class SkimmerSearch {
             case "skimmer" : taxonid = this.taxon_id_skimmer; break;
             case "peregrine" : taxonid = this.taxon_id_peregrine; break;
             case "grebe" : taxonid = this.taxon_id_grebe; break;
+            case "murre" : taxonid = this.taxon_id_murre; break;
         }
         return taxonid;
     }
