@@ -10,7 +10,7 @@ import { ObservationSearchResults } from '../../classes/observation-search-resul
 @Component({
   imports: [Observation, BirdHeader, Map, BirdFooter],
   selector: 'app-recent-skimmers',
-  styleUrls: ['../../birdApp.scss', './recent-skimmers.scss'],
+  styleUrls: ['../../birdapp.scss', './recent-skimmers.scss'],
   templateUrl: './recent-skimmers.html',
 })
 export class RecentSkimmers implements OnInit {

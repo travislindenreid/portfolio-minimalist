@@ -4,7 +4,7 @@ import { ObservationData } from '../../classes/observation-data';
 @Component({
   imports: [],
   selector: 'app-map',
-  styleUrls: ['../../birdApp.scss', './map.scss'],
+  styleUrls: ['../../birdapp.scss', './map.scss'],
   templateUrl: './map.html',
 })
 export class Map {

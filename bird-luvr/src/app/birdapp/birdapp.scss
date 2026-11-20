@@ -1,3 +1,5 @@
+@use 'styles/variables';
+
 @font-face {
     font-family: 'FriggCafe';
     src: url('/fonts/frigg_cafe/FriggCafe-Regular.otf');
@@ -24,20 +26,20 @@ body {
 }
 
 hr.dotted {
-  border-top: 3px dotted #8c8c8c;
+  border-top: 3px dotted variables.$medGrey;
 }
 
 a {
-    color: #e68a00;
+    color: variables.$medOrange;
 }
 
 a:hover {
-    color: #804d00;
-    background-color: #faead1;
+    color: variables.$darkOrange;
+    background-color: variables.$lightOrange;
 }
 
 em {
-    color: #0099AD;
+    color: variables.$medBlue;
     font-weight: bold;
     font-style: normal;
 }
@@ -47,7 +49,7 @@ em {
 }
 
 a.visited {
-    color: #995c00;
+    color: variables.$darkOrange;
 }
 
 .obslink {

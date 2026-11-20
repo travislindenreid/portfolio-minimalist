@@ -9,7 +9,7 @@ import { BirdFooter } from '../footer/birdFooter';
 @Component({
   imports: [BirdHeader, BirdPhoto, BirdFooter],
   selector: 'app-popular-photos',
-  styleUrls: ['../../birdApp.scss', './popular-photos.scss'],
+  styleUrls: ['../../birdapp.scss', './popular-photos.scss'],
   templateUrl: './popular-photos.html',
 })
 export class PopularPhotos implements OnInit {

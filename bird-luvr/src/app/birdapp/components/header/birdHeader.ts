@@ -4,7 +4,7 @@ import { Input } from '@angular/core';
 @Component({
   imports: [],
   selector: 'app-birdHeader',
-  styleUrls: ['../../birdApp.scss', './birdHeader.scss'],
+  styleUrls: ['../../birdapp.scss', './birdHeader.scss'],
   templateUrl: './birdHeader.html',
 })
 export class BirdHeader {

@@ -29,10 +29,14 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "src/styles.scss",
+              "src/styles/variables.scss"
+            ],
             "polyfills": ["@angular/localize/init"],
             "stylePreprocessorOptions": {
-              "includePaths": ["src/app/birdapp/birdapp.scss"]
+              "includePaths": ["src"]
             }
           },
           "configurations": {

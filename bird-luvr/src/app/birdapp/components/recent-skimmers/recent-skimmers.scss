@@ -1,9 +1,11 @@
+@use 'styles/variables';
+
 a.birdSelect{
-    color: #e68a00;
+    color: variables.$medOrange;
     text-decoration:underline;
 }
 
 a.birdSelect:hover {
-    color: #804d00;
-    background-color: #faead1;
+    color: variables.$darkOrange;
+    background-color: variables.$lightOrange;
 }
