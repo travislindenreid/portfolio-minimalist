@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { GameData } from '../../classes/game-data';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
@@ -12,19 +12,21 @@ import { GameService } from '../../services/game-service';
   templateUrl: './game.html',
 })
 export class Game implements OnInit{
-  path:string = "";
-  
-  gameData:GameData = new GameData();
-  title:string = this.gameData.name;
+  gameData = signal<GameData>(new GameData());
 
-  constructor(private route:ActivatedRoute) {}
+  constructor(private route:ActivatedRoute, private gameService:GameService) {}
 
   ngOnInit(): void {
-    let param = this.route.snapshot.paramMap.get('path');
-    if(param)
+    let pathParam = this.route.snapshot.paramMap.get('path');
+    if(pathParam)
     {
-      this.path = param;
-      console.log(`at path: ${this.path}`);
+      this.gameService.getGame(pathParam).then((game) => {
+        console.log(game);
+        if(game)
+        {
+          this.gameData.set(game);
+        }
+      });
     }
   }
 }

@@ -22,4 +22,9 @@ export class GameService {
         const data = await this.gameData;
         return data;
     }
+
+    public async getGame (path:string) {
+        const data = await this.gameData;
+        return data.find((val) => val.path == path);
+    }
 }

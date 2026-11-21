@@ -1,11 +1,11 @@
 <body class="container">
-  <app-header [title]="title"></app-header>
+  <app-header [title]="gameData().name"></app-header>
 
   <div class="row">
 
     <div class="col-md-2"></div>
     <main class="col-md-8 col-sm-12">
-        <p>game: {{path}}</p>
+        <p>game: {{gameData().name}}</p>
     </main>
     <div class="col-md-2"></div>
     
