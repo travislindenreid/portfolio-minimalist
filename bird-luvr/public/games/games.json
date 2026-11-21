@@ -33,6 +33,25 @@
                     "url" : "https://outofmanna.itch.io/caterpillar"
                 }
             ]
+        },
+        {
+            "name" : "EA Mobile Games",
+            "path" : "eamobile",
+            "preview_img" : "cnc_preview.png",
+            "images" : ["cnc.png", "galaxyOfHeroes.png"],
+            "timeframe" : "2017 - 2018",
+            "tagline" : "C&C Rivals; Galaxy of Heroes",
+            "content" : "<p>I worked at EA as an intern in college on popular mobile collector game Star Wars: Galaxy of Heroes and full-time after college on C&C: Rivals.</p><p>On Rivals, I worked in an in-house engine with C++, and wrote <b>gameplay code, shaders, tools,</b> and engineered a system to manage the lifetime of VFX. On Galaxy of Heroes, I wrote a <b>Unity tool for QA</b> to analyze the battle and damage systems.</p><p>I'm pretty sure my credit on Galaxy of Heroes is the reason why people keep hiring me to make mobile free-to-play versions of beloved sci-fi and PC gaming franchises, which fans of course love… Never read the YouTube comments.</p>",
+            "links" : [
+                {
+                    "name" : "Play Galaxy of Heroes",
+                    "url" : "https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.ea.game.starwarscapital_row"
+                },
+                {
+                    "name" : "Play C&C Rivals",
+                    "url" : "https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.ea.gp.candcwarzones"
+                }
+            ]
         }
     ]
 }
