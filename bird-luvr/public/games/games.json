@@ -17,6 +17,20 @@
                     "url" : "https://www.studiotiliagames.com/presskit"
                 }
             ]
+        },
+        {
+            "name" : "caterpillar",
+            "path" : "caterpillar",
+            "preview_img" : "caterpillar_preview.png",
+            "timeframe" : "2018",
+            "tagline" : "eat a boy... become a boy.",
+            "content" : "<p><i>caterpillar</i> is a small project I made about my personal experience with gender dysphoria. In it, you're a caterpillar crawling around on a bed of magazine scraps of men's body parts- which I cut out from actual magazines- and eating them to create a dream bod.</p><p><i>caterpillar</i> was featured in the 2019 Indie Bits Festival, an event which highlights interactive media made by southern game developers.</p>",
+            "links" : [
+                {
+                    "name" : "play now",
+                    "url" : "https://outofmanna.itch.io/caterpillar"
+                }
+            ]
         }
     ]
 }
