@@ -3,6 +3,7 @@ import { GameData } from '../../classes/game-data';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
 import { ActivatedRoute } from '@angular/router';
+import { GameService } from '../../services/game-service';
 
 @Component({
   imports: [Header, Footer],

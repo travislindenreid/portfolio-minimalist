@@ -19,14 +19,8 @@ export class Home implements OnInit {
   constructor(private gameService:GameService) {}
 
   ngOnInit(): void {
-    this.gameService.getJSON().subscribe(data => {
-      this.gameData.set(data.games);
-
-      /*
-      this.gameData().forEach((element:GameData) => {
-        console.log(element);
-      });
-      */
+    this.gameService.getAllGames().then(data => {
+      this.gameData.set(data);
     });
   }
 }
