@@ -67,6 +67,21 @@
                     "url" : "https://warcraftrumble.blizzard.com/en-us/"
                 }
             ]
+        },
+        {
+            "name" : "ROACH GAME",
+            "path" : "roachgame",
+            "preview_img" : "roachgame_preview.png",
+            "images" : ["roachgame.png"],
+            "timeframe" : "current project",
+            "tagline" : "Kill the roaches. Kill your landlord.",
+            "content" : "<p><i>Roach Game</i> is a work-in-progress horror-comedy game in which the player is squashing (literally) a roach uprising in their apartment while battling a mold poisoning induced psychosis and an inept apartment manager.</p><p>The roaches and environments in the game are photogrammetry scans of my actual apartment and roaches (and other bugs…) it contains.</p>",
+            "links" : [
+                {
+                    "name" : "Play the Alpha on Windows and Mac now",
+                    "url" : "https://outofmanna.itch.io/roach-game"
+                }
+            ]
         }
     ]
 }
