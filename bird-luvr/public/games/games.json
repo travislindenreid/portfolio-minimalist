@@ -82,6 +82,16 @@
                     "url" : "https://outofmanna.itch.io/roach-game"
                 }
             ]
+        },
+        {
+            "name" : "Limit Theory",
+            "path" : "ltheory",
+            "preview_img" : "ltheory_preview.png",
+            "images" : ["ltheory1.png", "ltheory2.png", "ltheory3.png"],
+            "timeframe" : "2017",
+            "tagline" : "",
+            "content" : "<p><i>Limit Theory</i> was a procedurally generated space exploration game with 4X elements. Josh Parnell created it and Adam Byrd and I contributed to engineering it. Although the game was ultimately cancelled, working on it was life-changing for me since I had the opportunity to learn about engineering topics I was personally interested in and built a foundation of 3D math skills that I used to learn graphics programming.</p><p>For Limit Theory, I architected systems to procedurally generate space ships. I worked in Lua in an in-house engine. <em>Every vertex of the meshes are generated from scratch</em>; there are no hand-made 3D objects used. I also worked on a tool to allow players to use this system to customize ships in the game for the demo we showed at Pax South 2018.</p>",
+            "links" : []
         }
     ]
 }
