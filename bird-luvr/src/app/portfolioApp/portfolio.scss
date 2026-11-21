@@ -1,3 +1,5 @@
+@use 'styles/variables';
+
 @font-face {
     font-family: 'Neuropol';
     src: url('/fonts/neuropol/Neuropol-Regular.eot');
@@ -10,13 +12,18 @@
     font-display: swap;
 }
 
+body {
+    color: variables.$lightGrey;
+}
+
 .container {
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 h1 {
     font-family: "Neuropol", sans-serif;
     font-size:2em;
+    color: variables.$neonGreen;
 }
 
 hr.dotted {

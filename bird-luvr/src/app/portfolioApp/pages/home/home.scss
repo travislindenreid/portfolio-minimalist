@@ -1,0 +1,8 @@
+@use 'styles/variables';
+
+main {
+    border-radius: 1em;
+    border-width: 0.08em;
+    border-color: variables.$neonGreen;
+    border-style: solid;
+}
