@@ -52,6 +52,21 @@
                     "url" : "https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.ea.gp.candcwarzones"
                 }
             ]
+        },
+        {
+            "name" : "Warcraft Rumble",
+            "path" : "warcraftrumble",
+            "preview_img" : "rumble_preview.png",
+            "images" : ["rumble.png"],
+            "timeframe" : "2018 - 2021",
+            "tagline" : "",
+            "content" : "<p>At Blizzard, I worked on Warcraft: Rumble, a mobile real-time action-strategy game. </p><p>I was the engineer primarily responsible for graphics and optimization, including writing the shaders that all of the VFX in the game use and building shaders and tools for special effects like the water.</p><p>I also analyzed our project and built our asset budgeting strategy, setting limits for art memory usage and budgeting our shader use so that we could reach our target FPS on our oldest targeted devices without setting our player's phones on fire. Only a little bit of an exaggeration- before optimizing, our playtests usually resulted in phones becoming too hot to hold; after I set budgets and we spent a few months addressing optimization issues, that stopped happening.</p><p>I established a version control strategy to our artists and ran an instructional meeting for them on how to use git. Before that meeting, we had multiple interruptions daily for version control issues; after that, we only had an issue once every week or two.</p><p>I also gave a talk at an internal tech art conference with our VFX artist on our collaboration strategy, helped run a super-unofficial game jam, and was a Blizzard LGBTQ Council member and ran a volunteer event to benefit our local LGBTQ center.</p>",
+            "links" : [
+                {
+                    "name" : "Play now on iPhone and Android",
+                    "url" : "https://warcraftrumble.blizzard.com/en-us/"
+                }
+            ]
         }
     ]
 }
