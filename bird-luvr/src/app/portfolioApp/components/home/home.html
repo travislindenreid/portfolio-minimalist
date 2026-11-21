@@ -5,7 +5,10 @@
 
     <div class="col-md-2"></div>
     <main class="col-md-8 col-sm-12">
-        Under construction :) Check out my <a href="recentBirds">birds</a>!
+        @for(game of gameData(); track game)
+        {
+          <app-game-link [gameData]="game"></app-game-link>
+        }
     </main>
     <div class="col-md-2"></div>
     

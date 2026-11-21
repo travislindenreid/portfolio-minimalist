@@ -8,8 +8,4 @@ export class GameData {
     tagline:string = "";
     content:string = "";
     links:LinkData[] = [];
-
-    get previewImgUrl():string {
-        return `/game_images/${this.preview_img}`;
-    }
 }
