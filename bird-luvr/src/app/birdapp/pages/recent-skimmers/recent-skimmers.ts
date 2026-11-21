@@ -1,10 +1,10 @@
 import { Component, OnInit, signal } from '@angular/core';
-import { Observation } from '../observation/observation';
+import { Observation } from '../../components/observation/observation';
 import { ObservationData } from '../../classes/observation-data';
 import { SkimmerSearch } from '../../services/skimmer-search';
-import { BirdHeader } from '../header/birdHeader';
-import { BirdFooter } from '../footer/birdFooter';
-import { Map } from '../map/map';
+import { BirdHeader } from '../../components/header/birdHeader';
+import { BirdFooter } from '../../components/footer/birdFooter';
+import { Map } from '../../components/map/map';
 import { ObservationSearchResults } from '../../classes/observation-search-results';
 
 @Component({

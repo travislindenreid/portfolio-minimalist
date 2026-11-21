@@ -1,14 +1,14 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { GameData } from '../../classes/game-data';
-import { Header } from '../header/header';
-import { Footer } from '../footer/footer';
+import { Header } from '../../components/header/header';
+import { Footer } from '../../components/footer/footer';
 import { ActivatedRoute } from '@angular/router';
 import { GameService } from '../../services/game-service';
 
 @Component({
   imports: [Header, Footer],
   selector: 'app-game',
-  styleUrl: './game.scss',
+  styleUrls: ['../../portfolio.scss', './game.scss'],
   templateUrl: './game.html',
 })
 export class Game implements OnInit{

@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Home } from './portfolioApp/components/home/home';
-import { RecentSkimmers } from './birdapp/components/recent-skimmers/recent-skimmers';
-import { PopularPhotos } from './birdapp/components/popular-photos/popular-photos';
-import { Game } from './portfolioApp/components/game/game';
+import { Home } from './portfolioApp/pages/home/home';
+import { RecentSkimmers } from './birdapp/pages/recent-skimmers/recent-skimmers';
+import { PopularPhotos } from './birdapp/pages/popular-photos/popular-photos';
+import { Game } from './portfolioApp/pages/game/game';
 
 export const routes: Routes = [
     { path: '', component: Home},
