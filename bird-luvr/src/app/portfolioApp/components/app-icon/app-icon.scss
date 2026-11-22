@@ -1,0 +1,18 @@
+@use 'styles/variables';
+
+article {
+    width: 20%;
+    display: inline-block;
+}
+
+img {
+    width : 100%;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: variables.$lightGreen;
+    border-width: 0.05em;
+}
+
+img:hover {
+    border-color: variables.$neonPink;
+}

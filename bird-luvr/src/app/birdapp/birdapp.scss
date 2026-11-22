@@ -1,5 +1,9 @@
 @use 'styles/variables';
 
+body {
+    background-color: white;
+}
+
 @font-face {
     font-family: 'FriggCafe';
     src: url('/fonts/frigg_cafe/FriggCafe-Regular.otf');

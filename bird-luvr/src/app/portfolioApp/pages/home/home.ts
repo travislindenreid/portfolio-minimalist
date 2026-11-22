@@ -4,9 +4,10 @@ import { Footer } from '../../components/footer/footer';
 import { GameService } from '../../services/game-service';
 import { GameData } from '../../classes/game-data';
 import { GameLink } from '../../components/game-link/game-link';
+import { AppIcon } from '../../components/app-icon/app-icon';
 
 @Component({
-  imports: [Header, Footer, GameLink],
+  imports: [Header, Footer, GameLink, AppIcon],
   selector: 'app-home',
   styleUrls: ['../../portfolio.scss', './home.scss'],
   templateUrl: './home.html',
