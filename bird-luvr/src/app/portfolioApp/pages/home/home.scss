@@ -46,13 +46,16 @@ main {
 .topBarSymbols, .topBarTime {
     color:#ffffff20;
     position:absolute;
-    top:0.1em;
 }
 
 .topBarSymbols {
     right:0;
+    top:0.2em;
 }
 
 .topBarTime {
     left: 0;
+    top:0.3em;
+    font-size: 0.6em;
+    font-family: Neuropol, sans-serif;
 }
