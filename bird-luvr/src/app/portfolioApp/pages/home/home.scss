@@ -32,9 +32,20 @@ main {
 }
 
 .phoneTop {
+    position: relative;
+}
+
+.phoneCamera {
     color: #ffffff1f;
     border-radius: 0.75em;
     background-color: black;
     padding: 0.8em;
     margin: 0% 30% 0% 30%;
+}
+
+.topBarSymbols {
+    color:#ffffff20;
+    position:absolute;
+    right:0;
+    top:0.1em;
 }
