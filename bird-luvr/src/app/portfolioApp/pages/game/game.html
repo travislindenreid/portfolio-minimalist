@@ -5,9 +5,8 @@
 
     <div class="col-md-2"></div>
     <main class="col-md-8 col-sm-12">
-        <p>{{gameData().name}}</p>
-        <p [innerHTML]="gameData().tagline"></p>
-        <p>{{gameData().timeframe}}</p>
+        <h2 [innerHTML]="gameData().tagline"></h2>
+        <h3>{{gameData().timeframe}}</h3>
         <p [innerHTML]="gameData().content"></p>
         @for(img of gameData().images; track img)
         {

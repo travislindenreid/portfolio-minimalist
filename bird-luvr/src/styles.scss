@@ -1,4 +1,20 @@
+@use 'styles/variables';
+
 body {
     font-family: serif;
     background-color: black;
+    color: variables.$lightGrey;
+    font-family: sans-serif;
+}
+
+a {
+    color: variables.$lightGreen;
+}
+
+a:hover {
+    color: variables.$neonPink;
+}
+
+a:visited {
+    color: variables.$darkGreen;
 }
