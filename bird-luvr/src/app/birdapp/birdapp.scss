@@ -1,9 +1,5 @@
 @use 'styles/variables';
 
-body {
-    background-color: white;
-}
-
 @font-face {
     font-family: 'FriggCafe';
     src: url('/fonts/frigg_cafe/FriggCafe-Regular.otf');
@@ -25,8 +21,7 @@ body {
 }
 
 .container {
-    // top, right, bottom, left
-    margin-top: 5%;
+    background-color: white;
 }
 
 hr.dotted {
