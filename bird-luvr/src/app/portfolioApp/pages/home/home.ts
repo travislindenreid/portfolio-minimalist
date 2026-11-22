@@ -14,6 +14,7 @@ import { AppIcon } from '../../components/app-icon/app-icon';
 })
 export class Home implements OnInit {
   title:string = "Travis Linden Reid";
+  time:string = "";
 
   gameData = signal<GameData[]>([]);
 
@@ -23,5 +24,7 @@ export class Home implements OnInit {
     this.gameService.getAllGames().then(data => {
       this.gameData.set(data);
     });
+
+    this.time = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
   }
 }
