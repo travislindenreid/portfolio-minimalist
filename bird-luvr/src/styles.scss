@@ -18,3 +18,7 @@ a:hover {
 a:visited {
     color: variables.$darkGreen;
 }
+
+a:visited:hover {
+    color: variables.$neonPink;
+}
