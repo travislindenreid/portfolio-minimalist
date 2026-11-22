@@ -15,4 +15,17 @@ main {
     border-style: solid;
     background-color: #85F87C15;
     height: 96vh;
+    padding: 0.5em;
+}
+
+.phoneTop, .phoneBottom {
+    border-radius: 0.75em;
+    border-width: 0.08em;
+    border-color: variables.$neonGreen;
+    border-style: solid;
+    padding: 0.25em;
+}
+
+.phoneTop {
+    text-align: right;
 }

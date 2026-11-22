@@ -5,11 +5,17 @@
     <div class="col-md-4"></div>
 
     <main class="col-md-4 col-sm-12">
+      <div class="phoneTop">ᯤ</div>
+
       <h1>Travis Linden Reid</h1>
-        @for(game of gameData(); track game)
-        {
-          <app-game-link [gameData]="game"></app-game-link>
-        }
+
+      @for(game of gameData(); track game)
+      {
+        <app-game-link [gameData]="game"></app-game-link>
+      }
+
+      <!-- <div class="phoneBottom">hi</div> -->
+
     </main>
 
     <div class="col-md-4"></div>
