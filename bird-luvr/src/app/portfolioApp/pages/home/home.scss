@@ -1,8 +1,18 @@
 @use 'styles/variables';
 
+.container {
+    margin-top: 2vh;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
 main {
     border-radius: 1em;
     border-width: 0.08em;
     border-color: variables.$neonGreen;
     border-style: solid;
+    background-color: #85F87C15;
+    height: 96vh;
 }
