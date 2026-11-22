@@ -1,31 +1,38 @@
 @use 'styles/variables';
 
+.row > main{
+    padding: 0px;
+}
+
 .container {
     margin-top: 2vh;
 }
 
 h1 {
     font-size: 1.5em;
+    margin: 0.5em 0em;
 }
 
 main {
-    border-radius: 1em;
-    border-width: 0.08em;
+    border-radius: 1.5em;
+    border-width: 0.2em;
     border-color: variables.$neonGreen;
-    border-style: solid;
-    background-color: #85F87C15;
+    border-style: ridge;
+    background-color: black;
     height: 96vh;
-    padding: 0.5em;
 }
 
-.phoneTop, .phoneBottom {
-    border-radius: 0.75em;
-    border-width: 0.08em;
-    border-color: variables.$neonGreen;
-    border-style: solid;
-    padding: 0.25em;
+.phoneScreen {
+    background-color: #85F87C20;
+    margin: 1em;
+    border-radius: 1.5em;
+    padding: 0em 1em 1em 1em;
 }
 
 .phoneTop {
-    text-align: right;
+    color: #ffffff1f;
+    border-radius: 0.75em;
+    background-color: black;
+    padding: 0.8em;
+    margin: 0% 30% 0% 30%;
 }
