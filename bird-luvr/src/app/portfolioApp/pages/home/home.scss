@@ -43,9 +43,16 @@ main {
     margin: 0% 30% 0% 30%;
 }
 
-.topBarSymbols {
+.topBarSymbols, .topBarTime {
     color:#ffffff20;
     position:absolute;
-    right:0;
     top:0.1em;
+}
+
+.topBarSymbols {
+    right:0;
+}
+
+.topBarTime {
+    left: 0;
 }
