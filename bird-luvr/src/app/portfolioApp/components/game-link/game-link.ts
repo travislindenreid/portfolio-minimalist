@@ -4,7 +4,7 @@ import { GameData } from '../../classes/game-data';
 @Component({
   imports: [],
   selector: 'app-game-link',
-  styleUrl: './game-link.scss',
+  styleUrl: '../app-icon/app-icon.scss',
   templateUrl: './game-link.html',
 })
 export class GameLink {

@@ -15,7 +15,12 @@
 
         <h1>Travis Linden Reid</h1>
 
-        @for(game of gameData(); track game)
+        @for(game of myGames(); track game)
+        {
+          <app-game-link [gameData]="game"></app-game-link>
+        }
+        
+        @for(game of otherGames(); track game)
         {
           <app-game-link [gameData]="game"></app-game-link>
         }

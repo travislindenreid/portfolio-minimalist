@@ -27,4 +27,9 @@ export class GameService {
         const data = await this.gameData;
         return data.find((val) => val.path == path);
     }
+
+    public async getGamesWithCategory (category:string) {
+        const data = await this.gameData;
+        return data.filter((val) => val.category == category);
+    }
 }

@@ -3,6 +3,7 @@
         {
             "name" : "are we good? 🙈",
             "path" : "arewegood",
+            "category" : "mine",
             "preview_img" : "awg_preview.png",
             "images" : ["awg.png"],
             "timeframe" : "current project",
@@ -22,6 +23,7 @@
         {
             "name" : "caterpillar",
             "path" : "caterpillar",
+            "category" : "mine",
             "preview_img" : "caterpillar_preview.png",
             "images" : ["caterpillar.png"],
             "timeframe" : "2018",
@@ -37,6 +39,7 @@
         {
             "name" : "EA Mobile Games",
             "path" : "eamobile",
+            "category" : "other",
             "preview_img" : "cnc_preview.png",
             "images" : ["cnc.png", "galaxyOfHeroes.png"],
             "timeframe" : "2017 - 2018",
@@ -56,6 +59,7 @@
         {
             "name" : "Warcraft Rumble",
             "path" : "warcraftrumble",
+            "category" : "other",
             "preview_img" : "rumble_preview.png",
             "images" : ["rumble.png"],
             "timeframe" : "2018 - 2021",
@@ -71,6 +75,7 @@
         {
             "name" : "ROACH GAME",
             "path" : "roachgame",
+            "category" : "mine",
             "preview_img" : "roachgame_preview.png",
             "images" : ["roachgame.png"],
             "timeframe" : "current project",
@@ -86,6 +91,7 @@
         {
             "name" : "Limit Theory",
             "path" : "ltheory",
+            "category" : "other",
             "preview_img" : "ltheory_preview.png",
             "images" : ["ltheory1.png", "ltheory2.png", "ltheory3.png"],
             "timeframe" : "2017",

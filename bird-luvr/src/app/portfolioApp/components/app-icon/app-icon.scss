@@ -1,8 +1,15 @@
 @use 'styles/variables';
 
 article {
-    width: 20%;
     display: inline-block;
+}
+
+article.mine {
+    width: 30%;
+}
+
+article.other {
+    width: 20%;
 }
 
 img {
