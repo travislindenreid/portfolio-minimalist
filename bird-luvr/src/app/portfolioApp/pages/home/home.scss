@@ -27,7 +27,7 @@ main {
 
 .phoneScreen {
     background-color: #85F87C20;
-    // top, right, bottom, left
+    position: relative;
     margin: 3% 2%;
     border-radius: 1.5em;
     padding: 0em 1em 1em 1em;
@@ -78,4 +78,20 @@ h4 {
     top:0.3em;
     font-size: 0.6em;
     font-family: Neuropol, sans-serif;
+}
+
+.phoneBottom {
+    border-radius: 1em;
+    border-style: solid;
+    border-color: variables.$lightGreen;
+    border-width: 0.05em;
+    background-color: #85F87C20;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10%;
 }

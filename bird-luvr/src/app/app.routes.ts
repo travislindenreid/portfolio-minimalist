@@ -6,6 +6,8 @@ import { Game } from './portfolioApp/pages/game/game';
 import { Courselibrary } from './portfolioApp/pages/courselibrary/courselibrary';
 import { Activelearning } from './portfolioApp/pages/activelearning/activelearning';
 import { Activities } from './portfolioApp/pages/activities/activities';
+import { About } from './portfolioApp/pages/about/about';
+import { Photography } from './portfolioApp/pages/photography/photography';
 
 export const routes: Routes = [
     { path: '', component: Home},
@@ -14,5 +16,7 @@ export const routes: Routes = [
     { path: 'games/:path', component: Game},
     { path: 'activeLearning', component: Activelearning},
     { path: 'courseLibrary', component: Courselibrary},
-    { path: 'activityLibrary', component: Activities}
+    { path: 'activityLibrary', component: Activities},
+    { path: 'photography', component: Photography},
+    { path: 'about', component: About}
 ];
