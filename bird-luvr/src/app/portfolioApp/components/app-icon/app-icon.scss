@@ -6,6 +6,13 @@ div {
 
 .iconContainer {
     position: relative;
+    border-radius: 1em;
+    box-shadow: none;
+}
+
+.iconContainer:hover {
+    box-shadow: 0 0 0.5em variables.$darkLemonTranslucent;
+    transition: box-shadow variables.$transitionTime;
 }
 
 .icon {
