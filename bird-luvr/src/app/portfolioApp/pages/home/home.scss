@@ -19,7 +19,7 @@ main {
     border-color: variables.$neonGreen;
     border-style: ridge;
     background-color: black;
-    height: 96vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-content: center;
