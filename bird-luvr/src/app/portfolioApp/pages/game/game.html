@@ -16,14 +16,10 @@
         <h2 [innerHTML]="gameData().tagline"></h2>
         <h3>{{gameData().timeframe}}</h3>
         <p [innerHTML]="gameData().content"></p>
-        <ul>
-          @for(link of gameData().links; track link)
-          {
-              <li>
-                <a [href]="link.url">{{link.name}}</a>
-              </li>
-          }
-        </ul>
+        @for(link of gameData().links; track link)
+        {
+            <a class="gameLink" [href]="link.url">{{link.name}}</a>
+        }
     </main>
 
     <div class="col-md-2"></div>
