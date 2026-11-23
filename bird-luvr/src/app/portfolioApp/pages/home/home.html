@@ -15,23 +15,28 @@
 
         <h1>Travis Linden Reid</h1>
 
-        <div class="myGames">
+        <h4>my games</h4>
+        <nav>
           @for(game of myGames(); track game)
           {
             <app-game-link [gameData]="game"></app-game-link>
           }
-        </div>
+        </nav>
         
-        <div class="myGames">
+        <h4>games I worked on</h4>
+        <nav>
           @for(game of otherGames(); track game)
           {
             <app-game-link [gameData]="game"></app-game-link>
           }
-        </div>
+        </nav>
 
-        <div class="myGames">
-          <app-app-icon [img_url]="'app_icons/birds.png'" [url]="'recentBirds'"></app-app-icon>
-        </div>
+        <h4>educator resources</h4>
+        <nav>
+          <app-app-icon [img_url]="'app_icons/activeLearning.png'" [url]="'activeLearning'"></app-app-icon>
+          <app-app-icon [img_url]="'app_icons/activityLibrary.png'" [url]="'activityLibrary'"></app-app-icon>
+          <app-app-icon [img_url]="'app_icons/courseLibrary.png'" [url]="'courseLibrary'"></app-app-icon>
+        </nav>
 
       </div>
     </main>
