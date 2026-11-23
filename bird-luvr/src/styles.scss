@@ -3,7 +3,7 @@
 body {
     font-family: serif;
     background-color: black;
-    color: variables.$lightGrey;
+    color: variables.$textGrey;
     font-family: sans-serif;
 }
 
@@ -16,9 +16,14 @@ a:hover {
 }
 
 a:visited {
-    color: variables.$darkGreen;
+    color: variables.$medGreen;
 }
 
 a:visited:hover {
     color: variables.$neonPink;
+}
+
+strong {
+    font-weight:600;
+    color: variables.$darkLemon;
 }

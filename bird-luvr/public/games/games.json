@@ -8,7 +8,7 @@
             "images" : ["awg.png"],
             "timeframe" : "current project",
             "tagline" : "In 3 days, the lead singer of the world's biggest boy band will go missing.<br>You decide why.",
-            "content" : "<p><i>are we good? 🙈</i> is a narrative mobile game and debut project for Studio Tilia, a new indie studio that I'm founding and directing. It was selected for <a href=\"https://medium.com/wings-blog/meet-the-cohort-for-wings-elevate-2023-sponsored-by-netflix-ed1d21b4b3ea\">ELEVATE 2023</a>, a grant and mentorship program funded by Netflix and run by WINGS and Code Coven.</p><p>The game takes place over simulated social media, following the story of the player character and their best friend as you untangle a mystery involving an international boy band as the fandom community unravels. We're using real photography for the artwork, with photoshoots inspired by real-life boy band sensations like BTS and One Direction.</p><p>Despite its stylish veneer of k-pop aesthetics, the narrative takes the players to surprising places, and asks them: <em>how far will you go to solve the mystery?</em></p>",
+            "content" : "<p><i>are we good? 🙈</i> is a narrative mobile game and the debut project for Studio Tilia, my indie studio.</p><p>It was selected for <a href=\"https://medium.com/wings-blog/meet-the-cohort-for-wings-elevate-2023-sponsored-by-netflix-ed1d21b4b3ea\">ELEVATE 2023</a>, a <strong>grant and mentorship program funded by Netflix</strong> and run by WINGS and Code Coven.</p><p>In 2026, <i>are we good? 🙈</i> exhibited at Leftfield, a <strong>curated indie games showcase</strong> at London Comic Con.</p><p>The game takes place over simulated social media, following the story of the player character and their best friend as you untangle a mystery involving an international boy band as the fandom community unravels. Despite its stylish veneer of k-pop aesthetics, the narrative takes the players to surprising places, and asks them: <em>how far will you go to solve the mystery?</em></p>",
             "links" : [
                 {
                     "name" : "play now",
@@ -28,7 +28,7 @@
             "images" : ["caterpillar.png"],
             "timeframe" : "2018",
             "tagline" : "eat a boy... become a boy.",
-            "content" : "<p><i>caterpillar</i> is a small project I made about my personal experience with gender dysphoria. In it, you're a caterpillar crawling around on a bed of magazine scraps of men's body parts- which I cut out from actual magazines- and eating them to create a dream bod.</p><p><i>caterpillar</i> was featured in the 2019 Indie Bits Festival, an event which highlights interactive media made by southern game developers.</p>",
+            "content" : "<p><i>caterpillar</i> is a small project I made about my personal experience with gender dysphoria. In it, you're a caterpillar crawling around on a bed of magazine scraps of men's body parts- which I cut out from actual magazines- and eating them to create a dream bod.</p><p><i>caterpillar</i> was featured in the <strong>2019 Indie Bits Festival</strong>, an event which highlights interactive media made by southern game developers.</p>",
             "links" : [
                 {
                     "name" : "play now",
@@ -44,7 +44,7 @@
             "images" : ["cnc.png", "galaxyOfHeroes.png"],
             "timeframe" : "2017 - 2018",
             "tagline" : "C&C Rivals; Galaxy of Heroes",
-            "content" : "<p>I worked at EA as an intern in college on popular mobile collector game Star Wars: Galaxy of Heroes and full-time after college on C&C: Rivals.</p><p>On Rivals, I worked in an in-house engine with C++, and wrote <b>gameplay code, shaders, tools,</b> and engineered a system to manage the lifetime of VFX. On Galaxy of Heroes, I wrote a <b>Unity tool for QA</b> to analyze the battle and damage systems.</p><p>I'm pretty sure my credit on Galaxy of Heroes is the reason why people keep hiring me to make mobile free-to-play versions of beloved sci-fi and PC gaming franchises, which fans of course love… Never read the YouTube comments.</p>",
+            "content" : "<p>I worked at EA as an intern in college on popular mobile collector game Star Wars: Galaxy of Heroes and full-time after college on C&C: Rivals.</p><p>On Rivals, I worked in an in-house engine with C++, and wrote <strong>gameplay code, shaders, tools,</strong> and engineered a system to manage the lifetime of VFX. On Galaxy of Heroes, I wrote a <strong>Unity tool for QA</strong> to analyze the battle and damage systems.</p><p>I'm pretty sure my credit on Galaxy of Heroes is the reason why people keep hiring me to make mobile free-to-play versions of beloved sci-fi and PC gaming franchises, which fans of course love… Never read the YouTube comments.</p>",
             "links" : [
                 {
                     "name" : "Play Galaxy of Heroes",
