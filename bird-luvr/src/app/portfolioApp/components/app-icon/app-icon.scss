@@ -4,7 +4,11 @@ div {
     height: 100%;
 }
 
-img {
+.iconContainer {
+    position: relative;
+}
+
+.icon {
     height : 100%;
     border-radius: 1em;
     border-style: solid;
@@ -12,6 +16,23 @@ img {
     border-width: 0.05em;
 }
 
-img:hover {
+a:hover .icon {
     border-color: variables.$neonPink;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    background-color: variables.$neonGreenAlpha;
+}
+
+a:hover .overlay {
+    display: inline;
 }

@@ -1,5 +1,8 @@
 <div class="{{gameData.category}}">
     <a href="games/{{gameData.path}}">
-        <img src="{{`/game_images/${gameData.preview_img}`}}">
+        <div class="iconContainer">
+            <img class="icon" src="{{`/game_images/${gameData.preview_img}`}}">
+            <div class="overlay"></div>
+        </div>
     </a>
 </div>
