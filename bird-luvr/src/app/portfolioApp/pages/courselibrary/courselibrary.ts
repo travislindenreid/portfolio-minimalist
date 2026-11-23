@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { Header } from '../../components/header/header';
+import { Footer } from '../../components/footer/footer';
 
 @Component({
-  imports: [],
+  imports: [Header, Footer],
   selector: 'app-courselibrary',
-  styleUrl: './courselibrary.scss',
+  styleUrls: ['../../portfolio.scss', './courselibrary.scss'],
   templateUrl: './courselibrary.html',
 })
-export class Courselibrary {}
+export class Courselibrary {
+  title:string = "Course Library";
+}

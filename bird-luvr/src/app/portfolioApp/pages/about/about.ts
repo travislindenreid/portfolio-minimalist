@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { Header } from '../../components/header/header';
+import { Footer } from '../../components/footer/footer';
 
 @Component({
-  imports: [],
+  imports: [Header, Footer],
   selector: 'app-about',
-  styleUrl: './about.scss',
+  styleUrls: ['../../portfolio.scss', './about.scss'],
   templateUrl: './about.html',
 })
-export class About {}
+export class About {
+  title:string = "About Travis";
+}

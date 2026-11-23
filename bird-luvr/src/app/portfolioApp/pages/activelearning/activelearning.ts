@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { Header } from '../../components/header/header';
+import { Footer } from '../../components/footer/footer';
 
 @Component({
-  imports: [],
+  imports: [Header, Footer],
   selector: 'app-activelearning',
-  styleUrl: './activelearning.scss',
+  styleUrls: ['../../portfolio.scss', './activelearning.scss'],
   templateUrl: './activelearning.html',
 })
-export class Activelearning {}
+export class Activelearning {
+  title:string = "Active Learning";
+}
