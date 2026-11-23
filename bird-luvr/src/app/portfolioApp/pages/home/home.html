@@ -15,17 +15,23 @@
 
         <h1>Travis Linden Reid</h1>
 
-        @for(game of myGames(); track game)
-        {
-          <app-game-link [gameData]="game"></app-game-link>
-        }
+        <div class="myGames">
+          @for(game of myGames(); track game)
+          {
+            <app-game-link [gameData]="game"></app-game-link>
+          }
+        </div>
         
-        @for(game of otherGames(); track game)
-        {
-          <app-game-link [gameData]="game"></app-game-link>
-        }
+        <div class="myGames">
+          @for(game of otherGames(); track game)
+          {
+            <app-game-link [gameData]="game"></app-game-link>
+          }
+        </div>
 
-        <app-app-icon [img_url]="'app_icons/birds.png'" [url]="'recentBirds'"></app-app-icon>
+        <div class="myGames">
+          <app-app-icon [img_url]="'app_icons/birds.png'" [url]="'recentBirds'"></app-app-icon>
+        </div>
 
       </div>
     </main>
