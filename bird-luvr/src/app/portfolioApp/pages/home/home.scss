@@ -29,7 +29,10 @@ main {
     background-color: #85F87C20;
     position: relative;
     margin: 3% 2%;
-    border-radius: 1.5em;
+    border-radius: 1em;
+    border-style: inset;
+    border-color: variables.$lightLemon;
+    border-width: 0px 1px 1px 1px;
     padding: 0em 1em 1em 1em;
     width: 94%;
 }
@@ -61,6 +64,9 @@ h4 {
     background-color: black;
     padding: 0.8em;
     margin: 0% 30% 0% 30%;
+    border-style: inset;
+    border-color: variables.$lightLemon;
+    border-width: 0px 1px 1px 1px;
 }
 
 .topBarSymbols, .topBarTime {
